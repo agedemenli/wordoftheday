@@ -3,6 +3,7 @@ Meet the word of the day. This API gives you the word of the day with its meanin
 The respond you get will, of course, differ every day.
 
 ## Usage
+
 ---
 `randomword/en`
 ```json
