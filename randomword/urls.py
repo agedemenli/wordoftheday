@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    #url(r'^company/(?P<user_id>[0-9]+)/$', views.profile, name='profile'),
+    # You can call it like /randomword/en
+    # Here, the string 'en' is being passed to the view as a parameter.
     path('<str:lang>', views.index, name='index'),
 ]
